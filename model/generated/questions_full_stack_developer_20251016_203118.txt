@@ -1,0 +1,50 @@
+Topic: full stack developer
+Count: 8
+
+Q1 [coding]: Write a Python function to reverse a given string.
+Starter code:
+def reverse_string(s):
+Answer: return s[::-1]
+
+Q2 [coding]: Write a JavaScript function to calculate the sum of all numbers in an array.
+Starter code:
+function sumArray(arr) {
+Answer: return arr.reduce((acc, curr) => acc + curr, 0);
+
+Q3 [debug]: The following Python code is intended to check if a number is even. Identify and fix the bug.
+Buggy code:
+def is_even(num):
+  if num % 2 == 1:
+    return False
+  else:
+    return True
+Fix:
+def is_even(num):
+  return num % 2 == 0
+
+Q4 [mcq]: Which HTTP method is typically used to retrieve data from a server?
+  1. POST
+  2. PUT
+  3. GET
+  4. DELETE
+Answer: 3
+
+Q5 [mcq]: What does SQL primarily stand for?
+  1. Structured Query Language
+  2. Standard Question Logic
+  3. Sequential Query Link
+  4. Simple Query Logic
+Answer: 1
+
+Q6 [mcq]: Which of the following is NOT a JavaScript framework or library commonly used for front-end development?
+  1. React
+  2. Angular
+  3. Vue
+  4. Django
+Answer: 4
+
+Q7 [one_word]: What is the primary purpose of a `package.json` file in a Node.js project?
+Answer: Dependency management
+
+Q8 [one_word]: Which database type stores data in tables with rows and columns, enforcing relationships between them?
+Answer: Relational
